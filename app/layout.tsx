@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ville Pakarinen | AI Engineer/Architect",
+  title: "Ville Pakarinen | AI Engineer",
   description: "Created by Ville Pakarinen",
 };
 
