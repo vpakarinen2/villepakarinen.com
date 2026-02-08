@@ -1,8 +1,7 @@
 export default function Home() {
   return (
     <main style={{ padding: "50px", fontFamily: "sans-serif" }}>
-      <h1>Work in Progress</h1>
-      <p>My new site is coming soon.</p>
+      <h1>Work in Progress. New site coming soon.</h1>
     </main>
   );
 }
