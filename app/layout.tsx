@@ -1,33 +1,28 @@
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
-  title: "Ville Pakarinen | AI Engineer",
-  description: "Created by Ville Pakarinen",
+  title: "Ville Pakarinen | AI Architect",
+  description: "AI Engineering and Architecture Portfolio",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${inter.variable} ${jakarta.variable} font-sans antialiased bg-background text-foreground h-screen overflow-hidden flex flex-col`}>
+        <Navbar /> 
+        <main className="flex-grow flex flex-col justify-center">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
