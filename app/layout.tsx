@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
-  title: "Ville Pakarinen | AI Architect",
-  description: "AI Engineering and Architecture Portfolio",
+  title: "Ville Pakarinen | AI Engineer & Architect",
+  description: "AI Engineering and Architecture services by Ville Pakarinen.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
