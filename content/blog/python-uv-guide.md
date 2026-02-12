@@ -59,5 +59,7 @@ uv python install 3.12
 uv python pin 3.12
 ```
 
+---
+
 ### The Verdict
 For an AI Architect, uv is the foundation of a reproducible stack. It removes the friction of environment setup, allowing you to move from a blank script to a fully functional, production-ready system in seconds.
