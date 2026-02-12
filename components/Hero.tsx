@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full flex flex-col items-center text-center px-6">
+    <section className="relative w-full flex flex-col items-center justify-center text-center px-6 py-12 md:py-0">
       
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px]"></div>

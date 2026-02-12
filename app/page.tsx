@@ -1,5 +1,9 @@
 import Hero from "@/components/Hero";
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <div className="flex-grow flex flex-col justify-center items-center overflow-hidden">
+      <Hero />
+    </div>
+  );
 }
