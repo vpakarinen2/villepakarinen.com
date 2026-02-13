@@ -13,7 +13,7 @@ Python packaging has historically been a fragmented mess. Between `pip`, `venv`,
 ---
 
 ### What is uv?
-Developed by Astral (the creators of Ruff), **uv** is a single executable designed to replace your entire Python toolchain:
+Developed by Astral (the creators of Ruff), **uv** is a single executable designed to replace your entire Python toolchain that acts as:
 * **Package Manager** (replacing `pip`)
 * **Environment Manager** (replacing `venv`)
 * **Python Version Manager** (replacing `pyenv`)
