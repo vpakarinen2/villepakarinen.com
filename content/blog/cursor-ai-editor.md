@@ -6,7 +6,7 @@ tags: ["DevTools", "AI", "Productivity"]
 author: "Ville Pakarinen"
 ---
 
-The era of the "standard" text editor is ending. While extensions like Copilot brought AI to the editor, **Cursor** was built around AI. By forking VS Code and gutting its internals to support deep model integration, Cursor has become the primary workspace for modern AI Architects.
+The era of the "standard" text editor is ending. While extensions like Copilot brought AI to the editor, **Cursor** was built around AI. By forking VS Code and gutting its internals to support deep model integration, Cursor has become the primary workspace for modern AI architecture.
 
 ---
 
