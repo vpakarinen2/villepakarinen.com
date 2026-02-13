@@ -15,8 +15,6 @@ In 2026, the "Cloud-First" era of AI is being challenged by a "Local-First" move
 ### What is Ollama?
 Ollama is an open-source framework designed to package, deploy, and run Large Language Models (LLMs) locally. It handles the backend logic of model loading, quantization, and GPU acceleration, exposing a simple CLI and a local REST API.
 
-Think of it as **"Docker for LLMs."**
-
 ### Why use it?
 
 1. **Data Sovereignty** Your prompts never leave your machine. This is critical for architects handling proprietary code, sensitive client data, or private research.
