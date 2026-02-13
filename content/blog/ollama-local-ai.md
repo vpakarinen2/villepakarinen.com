@@ -55,4 +55,4 @@ PARAMETER temperature 0.2
 ---
 
 ### The Verdict
-Ollama turns AI into a simple tool that sits right on your desktop, it removes the mystery of LLMs and puts you back in charge of your data and your wallet. If you want to explore the AI without the privacy risks Ollama is the way to get started.
+Ollama turns AI into a simple tool that sits right on your desktop, it removes the mystery of LLMs and puts you back in charge of your data and your wallet. If you want to explore the AI without the privacy risks, Ollama is the way to get started.
