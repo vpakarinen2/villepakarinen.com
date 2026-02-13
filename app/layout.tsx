@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
-  title: "Ville Pakarinen | AI Architect",
+  title: "Ville Pakarinen | AI Engineer & Architect",
   description: "AI Engineering and Architecture Portfolio",
   icons: {
     icon: "/icon.svg",
