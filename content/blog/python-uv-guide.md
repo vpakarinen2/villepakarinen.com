@@ -8,7 +8,7 @@ author: "Ville Pakarinen"
 
 Python packaging has historically been a fragmented mess. Between `pip`, `venv`, `pyenv`, `pip-tools`, and `poetry`, developers often spend more time managing environments than writing code.
 
-Enter **uv**: an extremely fast Python package and project manager written in Rust.
+**uv** is an extremely fast Python package and project manager written in Rust.
 
 ---
 
